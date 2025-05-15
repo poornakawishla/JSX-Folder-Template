@@ -1,6 +1,8 @@
 @import "tailwindcss";
-/* Scroll Bar */
 
+
+
+/* Custom Scrollbar */
 body {
   --sb-track-color: #16354e;
   --sb-thumb-color: #0c1f2f;
