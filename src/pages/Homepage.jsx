@@ -8,7 +8,7 @@ const TABS = {
   LIVE: "Live Projects",
 };
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 5;
 
 function Homepage() {
   const [activeTab, setActiveTab] = useState(TABS.BEHANCE);
@@ -41,7 +41,7 @@ function Homepage() {
             Hey, It's Poorna
           </h1>
           <p className="text-lg md:text-xl text-gray-400">
-            UI/UX Designer · ReactJS Developer · Human-Centered Thinker · Strategist
+            UI/UX Designer · ReactJS Developer · Human-Centered Thinker
           </p>
 
           <Primarybutton
@@ -77,7 +77,7 @@ function Homepage() {
             {visibleProjects.map((project, index) => (
               <div
                 key={index}
-                className="bg-[#141A2F]/70 backdrop-blur-md border border-white/10 p-6 rounded-[8px] transition hover:shadow-xl hover:-translate-y-1 duration-300 text-left"
+                className="bg-[#141A2F]/70 backdrop-blur-md border border-white/10 p-6 rounded-2xl transition hover:shadow-xl hover:-translate-y-1 duration-300 text-left"
               >
                 <h3 className="text-[24px] md:text-[26px] font-semibold flex items-center gap-2 text-white mb-2">
                   {project.icon && (
@@ -95,7 +95,7 @@ function Homepage() {
                     href={project.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center mt-5 gap-2 px-6 py-3 bg-gradient-to-tr from-[#070c17] to-[#0d162f] text-white font-medium rounded-[8px] hover:opacity-90 transition group"
+                    className="inline-flex items-center mt-5 gap-2 px-5 py-2.5 bg-gradient-to-tr from-[#3B76F6] to-[#5F8FFF] text-white font-medium rounded-full hover:opacity-90 transition group"
                   >
                     {project.linkLabel}
                     <MoveRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -130,6 +130,9 @@ function Homepage() {
             </div>
           )}
 
+          {/* Link */}
+
+          
           {/* Footer */}
           <p className="text-sm text-gray-500 text-center pt-6">
             Made with 💙{" "}
