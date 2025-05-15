@@ -8,7 +8,7 @@ const projects = {
       linkLabel: "Check it out",
     },
     {
-      title: "🌌 JSX Personal Portfolio",
+      title: "🧑‍🏫 JSX Personal Portfolio",
       description:
         "A personal portfolio website showcasing my work and skills (React JS)",
       link: "https://poornajsx.netlify.app/",
