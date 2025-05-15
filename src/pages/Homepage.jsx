@@ -42,7 +42,7 @@ function Homepage() {
 
           <Primarybutton
             buttonText="Contact Me"
-            buttonLink="/"
+            buttonLink="/contact"
             className="text-white bg-[#1C243B] hover:bg-[#2A2F4D] px-6 py-3 rounded-lg"
           />
 
