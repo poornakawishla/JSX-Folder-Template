@@ -8,7 +8,7 @@ const TABS = {
   LIVE: "Live Projects",
 };
 
-const ITEMS_PER_PAGE = 5;
+const ITEMS_PER_PAGE = 6;
 
 function Homepage() {
   const [activeTab, setActiveTab] = useState(TABS.BEHANCE);

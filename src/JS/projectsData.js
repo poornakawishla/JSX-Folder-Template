@@ -7,6 +7,13 @@ const projects = {
       link: "https://projectdreamscape.netlify.app/",
       linkLabel: "Check it out",
     },
+    {
+      title: "🌌 JSX Personal Portfolio",
+      description:
+        "A personal portfolio website showcasing my work and skills (React JS)",
+      link: "https://poornajsx.netlify.app/",
+      linkLabel: "Check it out",
+    },
   ],
   behance: [
     {
@@ -20,6 +27,13 @@ const projects = {
       description:
         "Minimal, visual-forward portfolio site for a creative studio",
       link: "https://www.behance.net/gallery/209909555/Capture-Eye-Studio-Website-Design",
+      linkLabel: "Check it out on Behance",
+    },
+    {
+      title: "📺 Cyber Tv App Re-design",
+      description:
+        "Minimal, visual-forward TV App UI design with a focus on content discovery",
+      link: "https://www.behance.net/gallery/210897489/Cyber-Tv-App-Re-design",
       linkLabel: "Check it out on Behance",
     },
     {
