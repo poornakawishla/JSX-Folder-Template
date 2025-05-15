@@ -58,7 +58,7 @@ function Contact() {
     />
     <div className="mt-6">
       <p className="text-sm text-gray-500">
-        Made with 💙 by{" "}
+        Made with 💙{" "}
         <a
           href="https://bento.me/poornakawishla"
           target="_blank"
