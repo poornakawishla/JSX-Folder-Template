@@ -8,9 +8,9 @@ function Homepage() {
         <div className="absolute inset-0 bg-[#0A0E1A]/80 z-0"></div>
 
         <div className="relative z-10 max-w-4xl text-center space-y-8">
-          <h1 className="text-4xl md:text-5xl font-bold">Hey, I'm Poorna 👋</h1>
+          <h1 className="text-4xl md:text-5xl font-bold">Hey, It's Poorna</h1>
           <p className="text-lg md:text-xl text-gray-300">
-            UI/UX Designer · ReactJS Developer · Human-Centered Thinker
+           UI/UX Designer & Frontend Developer,Strategist,Creator
           </p>
 
           <div className="flex justify-center gap-4">
