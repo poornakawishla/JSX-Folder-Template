@@ -54,7 +54,7 @@ function Contact() {
     <Primarybutton
       buttonText="Back to Home"
       buttonLink="/"
-      className="text-white bg-[#1C243B] hover:bg-[#2A2F4D] px-6 py-3 rounded-lg"
+      className="bg-gradient-to-tr from-[#3B76F6] to-[#5F8FFF] hover:opacity-90 px-6 py-2 text-white font-semibold rounded-full shadow-lg transition"
     />
     <div className="mt-6">
       <p className="text-sm text-gray-500">
